@@ -1,5 +1,6 @@
-﻿//  Показать вторую цифру трёхзначного числа
+﻿// Показать вторую цифру трёхзначного числа
 Console.WriteLine("Введите трёхзначное число: ");
-string a = Console.ReadLine();
+int number =  Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Вторая цифра: " + a[1]);
+System.Console.WriteLine($"Второй цифрой числа {number} является {number / 10 % 10} ");
+
